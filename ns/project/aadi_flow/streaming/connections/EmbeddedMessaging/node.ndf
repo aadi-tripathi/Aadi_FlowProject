@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.aadi_flow.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">Aadi_FlowProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">Aadi_FlowProject.project.aadi_flow.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhp://stage00-dev6222501-um-0.int-dev6222501.svc.cluster.local:9000/</value>
+  <value name="clientId">EM812b8d5e10df481c9e01c3b0d0f39b47</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Aadi.Shakti.Tripathi@ibm.com</value>
+    <value name="modifiedBy">Aadi.Shakti.Tripathi@ibm.com</value>
+    <value name="createdDate">2026-10-12T09:17:45.039400161Z</value>
+    <value name="lastModifiedDate">2026-10-12T09:17:45.039400161Z</value>
+  </record>
+</Values>
