@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: Custpack
+  version: "1.0"
   gitServerName: aadiacc
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
@@ -12,3 +13,20 @@ packages:
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
   gitBranch: main
+services:
+- serviceName: project.aadi_flow.integrations:daf
+  packages:
+  - name: Aadi_FlowProject
+    version: "1.0"
+  - name: Custpack
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
+- serviceName: project.aadi_flow.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: Aadi_FlowProject
+    version: "1.0"
+  - name: Custpack
+    version: "1.0"
