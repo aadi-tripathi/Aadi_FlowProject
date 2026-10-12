@@ -20,6 +20,8 @@ services:
     version: "1.0"
   - name: Custpack
     version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -30,3 +32,5 @@ services:
     version: "1.0"
   - name: Custpack
     version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1222
