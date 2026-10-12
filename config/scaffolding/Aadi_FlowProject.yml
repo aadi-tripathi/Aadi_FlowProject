@@ -2,6 +2,11 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
+- name: Custpack
+  gitServerName: aadiacc
+  gitUrl: https://github.com/aadi-tripathi
+  gitUsername: aadi-tripathi
+  gitBranch: main
 - name: Aadi_FlowProject
   gitServerName: aadiacc
   gitUrl: https://github.com/aadi-tripathi
