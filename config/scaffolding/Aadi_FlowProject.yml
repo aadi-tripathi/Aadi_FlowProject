@@ -3,4 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: Aadi_FlowProject
-  gitBranch: master
+  gitServerName: aadiacc
+  gitUrl: https://github.com/aadi-tripathi
+  gitUsername: aadi-tripathi
+  gitBranch: main
